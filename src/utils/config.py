@@ -1,0 +1,36 @@
+"""
+Application configuration settings
+"""
+
+WINDOW_TITLE = "Pretty Pixels - Face Editor"
+WINDOW_WIDTH = 1200
+WINDOW_HEIGHT = 1000
+
+CANVAS_WIDTH = 400
+CANVAS_HEIGHT = 500
+
+MAX_IMAGE_DIMENSION = 1200  
+BLEMISH_RADIUS = 10  
+INPAINT_RADIUS = 3  
+
+SLIDER_MIN = 0
+SLIDER_MAX = 100
+SLIDER_DEFAULT = 0
+
+SMOOTHING_MIN_D = 9
+SMOOTHING_MAX_D = 15
+SMOOTHING_MIN_SIGMA = 50
+SMOOTHING_MAX_SIGMA = 100
+
+SHARPEN_MIN_AMOUNT = 0
+SHARPEN_MAX_AMOUNT = 2
+
+SUPPORTED_FORMATS = [
+    ('Image files', '*.jpg *.jpeg *.png *.bmp'),
+    ('JPEG files', '*.jpg *.jpeg'),
+    ('PNG files', '*.png'),
+    ('All files', '*.*')
+]
+
+FACE_DETECTION_CONFIDENCE = 0.5
+MAX_NUM_FACES = 1
